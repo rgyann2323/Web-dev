@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Library</title>
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dosis&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <!-- feather icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- my style -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- navbar start -->
+  <nav class="navbar">
+
+    <img src="img/logobuku.png" alt="image" style="width: 150px; height: 60px;">
+
+    <div class="navbar-nav">
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#Menu">List</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="book"><i data-feather="book"></i></a>
+      <a href="#" id="menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- search form star -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here..." />
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- search form end -->
+  </nav>
+  <!-- navbar end -->
+
+  <!-- Hero Section Start -->
+  <section class="hero" id="Home">
+    <main class="content">
+      <h1>Ur Fav<span>Library</span>.</h1>
+      <p>
+        Many choices of book genres are available in our library.
+        <a href="https://www.gramedia.com/" class="cta">Orde Now</a>
+      </p>
+    </main>
+  </section>
+  <!-- Hero Section end -->
+
+  <!-- About Section Start -->
+  <section id="about" class="about">
+    <h2><span>About</span> Our</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="img/pohon.png" alt="Tentang Kami" style="width: 90%; height: 90%;" />
+      </div>
+      <br>
+      <div class="content">
+        <h3>why choose our library?</h3>
+        <p>
+          Our library offers various types of books, ranging from fiction to non-fiction.
+        </p>
+        <p>
+          
+Apart from that, we also allow the general public to read books for free in our library directly.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- About Section end -->
+
+  <!-- Menu Section start -->
+  <section id="Menu" class="Menu">
+    <h2><span>List</span> Book</h2>
+    <p>
+      The following is a collection of books in our library.
+    </p>
+
+    <div class="row">
+      <a href="novel.html"><button class="btn">Novel</button></a>
+      <a href="manga.html"><button class="btn">Manga</button></a>
+      <a href="komik.html"><button class="btn">Comic</button></a>
+      <a href="ency.html"><button class="btn">Encyclopedia</button></a>
+      <a href="anto.html"><button class="btn">Anthopologi</button></a>
+    </div>
+  </section>
+  <!-- Menu Section end -->
+
+  <!-- Contact Section start -->
+  <section id="contact" class="contact">
+    <h2><span>Our</span> Contact</h2>
+    <p>
+      Your suggestions and criticism really help us in developing this program!
+    </p>
+
+    <div class="row">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126933.05761418918!2d106.56763058058974!3d-6.176510534097839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f8e853d2e38d%3A0x301576d14feb9c0!2sTangerang%2C%20Kota%20Tangerang%2C%20Banten!5e0!3m2!1sid!2sid!4v1716971780442!5m2!1sid!2sid"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+      <form action="">
+        <div class="input-groub">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="nama" />
+        </div>
+        <div class="input-groub">
+          <i data-feather="mail"></i>
+          <input type="text" placeholder="email" />
+        </div>
+        <div class="input-groub">
+          <i data-feather="phone"></i>
+          <input type="text" placeholder="no hp" />
+        </div>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </section>
+  <!-- Contact Section end -->
+
+  <!-- Footer start -->
+  <footer>
+    <div class="socials">
+      <a href="https://www.instagram.com/"><i data-feather="instagram"></i></a>
+      <a href="https://id-id.facebook.com/"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="home">home</a>
+      <a href="about">About Our</a>
+      <a href="Menu">Menu</a>
+      <a href="contact">Contact</a>
+    </div>
+
+    <div class="credit">
+      <p>created by <a href="">Regyan&Ongki</a>. | &copy; 2024.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- father icons -->
+
+  <script>
+    feather.replace();
+  </script>
+
+  <!-- my javascript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
